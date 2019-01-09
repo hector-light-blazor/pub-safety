@@ -1,4 +1,31 @@
-.welcome-card ion-img {
-  max-height: 35vh;
-  overflow: hidden;
+ion-img {
+  margin-top: 10px;
+  margin-left:calc( (100vw/2) - (200px / 2)) !important;
+}
+
+
+ion-toolbar {
+  --background: #375187;
+  color: white;
+  --border-color: #375187;
+}
+
+ion-menu-button {
+  color: white;
+}
+
+ion-content{
+
+  --ion-background-color:#375187;
+  --ion-text-color: white;
+}
+
+
+ion-button {
+  color: white;
+  --ion-text-color: white;
+  margin-left: calc( (100vw/2) - (82vw/2)) !important;
+  width: 82%;
+  height: 88px;
+  
 }

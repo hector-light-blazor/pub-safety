@@ -1,5 +1,8 @@
 {
   "name": "lrgvdc911",
-  "integrations": {},
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
   "type": "angular"
 }
