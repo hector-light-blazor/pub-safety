@@ -1,0 +1,21 @@
+ion-content{
+    background-image: url('/assets/main.png');
+    background-repeat: no-repeat;
+    background-position: left top; 
+    --background: transparent;
+}
+
+ion-list {
+    margin-top: 10px;
+    background: transparent !important;
+}
+
+ion-item {
+    --background: transparent !important;
+   
+}
+
+ion-button {
+    width: calc(100vw - 10px);
+    margin-bottom: 25px;
+}

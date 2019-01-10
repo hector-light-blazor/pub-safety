@@ -14,7 +14,14 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
-  }
+  },
+  { path: 'main', loadChildren: './main/main.module#MainPageModule' },
+  { path: 'lv', loadChildren: './department/lv/lv.module#LvPageModule' },
+  { path: 'gis', loadChildren: './department/gis/gis.module#GisPageModule' },
+  { path: 'system', loadChildren: './department/system/system.module#SystemPageModule' },
+  { path: 'pubed', loadChildren: './department/pubed/pubed.module#PubedPageModule' },
+  { path: 'training', loadChildren: './department/training/training.module#TrainingPageModule' },
+  { path: 'db', loadChildren: './department/db/db.module#DbPageModule' }
 ];
 
 @NgModule({

@@ -22,7 +22,7 @@ ion-content{
 
 
 ion-button {
-  color: white;
+  --color: white;
   --ion-text-color: white;
   margin-left: calc( (100vw/2) - (82vw/2)) !important;
   width: 82%;
