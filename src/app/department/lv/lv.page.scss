@@ -1,0 +1,12 @@
+ion-content{
+    background-image: url('/assets/lvback.png');
+    background-position: -195px -120px;
+    background-color: rgba(157, 47, 25, 0.6);
+    --ion-text-color: white;
+    --background: transparent;
+  }
+
+  ion-button {
+      --background: #2F0601;
+      border-radius: 10px;
+  }

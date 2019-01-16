@@ -21,7 +21,10 @@ const routes: Routes = [
   { path: 'system', loadChildren: './department/system/system.module#SystemPageModule' },
   { path: 'pubed', loadChildren: './department/pubed/pubed.module#PubedPageModule' },
   { path: 'training', loadChildren: './department/training/training.module#TrainingPageModule' },
-  { path: 'db', loadChildren: './department/db/db.module#DbPageModule' }
+  { path: 'db', loadChildren: './department/db/db.module#DbPageModule' },
+  { path: 'about', loadChildren: './about/about.module#AboutPageModule' },
+  { path: 'psa', loadChildren: './psa/psa.module#PsaPageModule' },
+  { path: 'raddress', loadChildren: './raddress/raddress.module#RaddressPageModule' }
 ];
 
 @NgModule({
